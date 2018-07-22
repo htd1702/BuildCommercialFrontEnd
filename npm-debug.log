@@ -1,0 +1,156 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'git',
+1 verbose cli   'mergetool' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git
+8 silly fetchPackageMetaData mergetool
+9 silly fetchNamedPackageData git
+10 silly mapToRegistry name git
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'git',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'git',
+13 silly mapToRegistry   name: 'git',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/git
+15 silly fetchNamedPackageData mergetool
+16 silly mapToRegistry name mergetool
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'mergetool',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'mergetool',
+19 silly mapToRegistry   name: 'mergetool',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/mergetool
+21 verbose request uri https://registry.npmjs.org/mergetool
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 1:13:22 PM
+24 verbose request id 22bbbb6a6ec2275d
+25 http request GET https://registry.npmjs.org/mergetool
+26 verbose request uri https://registry.npmjs.org/git
+27 verbose request no auth needed
+28 info attempt registry request try #1 at 1:13:22 PM
+29 verbose etag W/"95d70c6d90e5f9fdaa6b124bf53b2834"
+30 verbose lastModified Sun, 27 May 2018 02:19:56 GMT
+31 http request GET https://registry.npmjs.org/git
+32 http 304 https://registry.npmjs.org/git
+33 verbose headers { date: 'Sun, 22 Jul 2018 06:13:21 GMT',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie': [ '__cfduid=dc0bf60a819fd1b7d48d4d034a2f092fb1532240001; expires=Mon, 22-Jul-19 06:13:21 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   'cf-cache-status': 'HIT',
+33 verbose headers   'cf-ray': '43e3c2ca2e1731e0-SIN',
+33 verbose headers   etag: '"95d70c6d90e5f9fdaa6b124bf53b2834"',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   'last-modified': 'Sun, 27 May 2018 02:19:56 GMT',
+33 verbose headers   vary: 'accept-encoding, accept',
+33 verbose headers   server: 'cloudflare' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Sun, 22 Jul 2018 06:13:21 GMT',
+34 silly get     connection: 'keep-alive',
+34 silly get     'set-cookie': [ '__cfduid=dc0bf60a819fd1b7d48d4d034a2f092fb1532240001; expires=Mon, 22-Jul-19 06:13:21 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     'cf-cache-status': 'HIT',
+34 silly get     'cf-ray': '43e3c2ca2e1731e0-SIN',
+34 silly get     etag: '"95d70c6d90e5f9fdaa6b124bf53b2834"',
+34 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+34 silly get     'last-modified': 'Sun, 27 May 2018 02:19:56 GMT',
+34 silly get     vary: 'accept-encoding, accept',
+34 silly get     server: 'cloudflare' } ]
+35 verbose etag https://registry.npmjs.org/git from cache
+36 verbose get saving git to C:\Users\htd17\AppData\Roaming\npm-cache\registry.npmjs.org\git\.cache.json
+37 verbose correctMkdir C:\Users\htd17\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+38 http 404 https://registry.npmjs.org/mergetool
+39 verbose headers { date: 'Sun, 22 Jul 2018 06:13:22 GMT',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'content-length': '21',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'set-cookie': [ '__cfduid=d037b26d0c50cf87abad493a68a9d24db1532240001; expires=Mon, 22-Jul-19 06:13:21 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'cf-cache-status': 'MISS',
+39 verbose headers   'cf-ray': '43e3c2ca1f94a924-SIN',
+39 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+39 verbose headers   'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+39 verbose headers   vary: 'accept-encoding, accept',
+39 verbose headers   server: 'cloudflare' }
+40 warn notice Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".
+41 silly get cb [ 404,
+41 silly get   { date: 'Sun, 22 Jul 2018 06:13:22 GMT',
+41 silly get     'content-type': 'application/json',
+41 silly get     'content-length': '21',
+41 silly get     connection: 'keep-alive',
+41 silly get     'set-cookie': [ '__cfduid=d037b26d0c50cf87abad493a68a9d24db1532240001; expires=Mon, 22-Jul-19 06:13:21 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     'cf-cache-status': 'MISS',
+41 silly get     'cf-ray': '43e3c2ca1f94a924-SIN',
+41 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+41 silly get     'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+41 silly get     vary: 'accept-encoding, accept',
+41 silly get     server: 'cloudflare' } ]
+42 silly fetchPackageMetaData Error: Not found : mergetool
+42 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+42 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+42 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+42 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+42 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+42 silly fetchPackageMetaData  error for mergetool { Error: Not found : mergetool
+42 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+42 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+42 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+42 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+42 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+42 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+42 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+42 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+42 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: 'mergetool', statusCode: 404, code: 'E404' }
+43 silly rollbackFailedOptional Starting
+44 silly rollbackFailedOptional Finishing
+45 silly runTopLevelLifecycles Finishing
+46 silly install printInstalled
+47 verbose stack Error: Not found : mergetool
+47 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+47 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+47 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+47 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+47 verbose stack     at emitTwo (events.js:106:13)
+47 verbose stack     at Request.emit (events.js:191:7)
+47 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+47 verbose stack     at emitOne (events.js:96:13)
+47 verbose stack     at Request.emit (events.js:188:7)
+47 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+48 verbose statusCode 404
+49 verbose pkgid mergetool
+50 verbose cwd E:\Project\Product\Front-end
+51 error Windows_NT 10.0.17134
+52 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "git" "mergetool"
+53 error node v6.11.3
+54 error npm  v3.10.10
+55 error code E404
+56 error 404 Not found : mergetool
+57 error 404
+58 error 404 'mergetool' is not in the npm registry.
+59 error 404 You should bug the author to publish it (or use the name yourself!)
+60 error 404 Note that you can also install from a
+61 error 404 tarball, folder, http url, or git url.
+62 verbose exit [ 1, true ]
